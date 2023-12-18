@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>PersianAssistant</PackageId>
+    <Authors>Siamak jalili</Authors>
   </PropertyGroup>
 
 </Project>
