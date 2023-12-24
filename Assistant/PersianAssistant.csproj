@@ -7,6 +7,21 @@
 		<PackageId>PersianAssistant</PackageId>
 		<Authors>Siamak jalili</Authors>
 		<VersionPrefix>2.0.0</VersionPrefix>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<RepositoryUrl>https://github.com/siamakjalil/Assistant</RepositoryUrl>
+ 
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup> 
 
 </Project>
