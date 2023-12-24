@@ -1,4 +1,4 @@
-﻿namespace Assistant.Models
+﻿namespace PersianAssistant.Models
 { 
     public class DropDownModels
     {

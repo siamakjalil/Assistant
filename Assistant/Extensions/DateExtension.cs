@@ -1,10 +1,10 @@
-﻿using Assistant.Models; 
+﻿using PersianAssistant.Models; 
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace Assistant.Extensions
+namespace PersianAssistant.Extensions
 {
     public static class DateExtension
     {

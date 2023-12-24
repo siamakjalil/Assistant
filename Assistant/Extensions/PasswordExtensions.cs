@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Assistant.Extensions
+namespace PersianAssistant.Extensions
 { 
     public static class PasswordExtensions
     {

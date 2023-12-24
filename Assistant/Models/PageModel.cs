@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assistant.Models
+namespace PersianAssistant.Models
 {
     public class PageModel
     {

@@ -1,10 +1,10 @@
-﻿using Assistant.Enum;
-using Assistant.Models;
+﻿using PersianAssistant.Enum;
+using PersianAssistant.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assistant.Extensions
+namespace PersianAssistant.Extensions
 {
     public static class StatusExtension
     {

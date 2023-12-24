@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Assistant.Models;
+using PersianAssistant.Models;
 
-namespace Assistant.Extensions
+namespace PersianAssistant.Extensions
 {
     public static class PageExtension
     {
