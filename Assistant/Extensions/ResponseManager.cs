@@ -6,61 +6,61 @@ using PersianAssistant.Models;
 
 namespace PersianAssistant.Extensions
 { 
-    public static class ResponseManagerExtension
+    public static class ResponseManager
     {
-        public static ServiceMessageModel ServerError()
+        public static ServiceMessage ServerError()
         {
-            return new ServiceMessageModel()
+            return new ServiceMessage()
             {
                 ErrorId = -1,
                 ErrorTitle = "خطای سیستمی رخ داده، مجددا تلاش کنید.",
             };
         }
-        public static ServiceMessageModel ServerError(string error)
+        public static ServiceMessage ServerError(string error)
         {
-            return new ServiceMessageModel()
+            return new ServiceMessage()
             {
                 ErrorId = -1,
                 ErrorTitle = error,
             };
         }
 
-        public static ServiceMessageModel SessionExpire()
+        public static ServiceMessage SessionExpire()
         {
-            return new ServiceMessageModel()
+            return new ServiceMessage()
             {
                 ErrorId = -21,
                 ErrorTitle = "مدت زمان مجاز شما برای حضور در نرم افزار به پایان رسیده است لطفا مجددا وارد شوید.",
             };
         }
-        public static ServiceMessageModel SessionExpire(string error)
+        public static ServiceMessage SessionExpire(string error)
         {
-            return new ServiceMessageModel()
+            return new ServiceMessage()
             {
                 ErrorId = -21,
                 ErrorTitle = error,
             };
         }
 
-        public static ServiceMessageModel DataError(string title)
+        public static ServiceMessage DataError(string title)
         {
-            return new ServiceMessageModel()
+            return new ServiceMessage()
             {
                 ErrorId = -2,
                 ErrorTitle = title,
             };
         }
-        public static ServiceMessageModel FillObject(dynamic obj)
+        public static ServiceMessage FillObject(dynamic obj)
         {
-            return new ServiceMessageModel()
+            return new ServiceMessage()
             {
                 ErrorId = 0,
                 Result = obj
             };
         }    
-        public static ServiceMessageModel CustomResponse(int id, string title, dynamic res)
+        public static ServiceMessage CustomResponse(int id, string title, dynamic res)
         {
-            return new ServiceMessageModel()
+            return new ServiceMessage()
             {
                 ErrorId = id,
                 ErrorTitle = title,

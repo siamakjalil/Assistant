@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PersianAssistant.Models
 {
-    public class ServiceMessageModel
+    public class ServiceMessage
     {
         public int? ErrorId { get; set; }
         public string ErrorTitle { get; set; }
